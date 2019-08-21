@@ -1,0 +1,116 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.6.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\audio\EnemyDeath.wav" />
+    <None Include="wwwroot\assets\audio\Pickup.wav" />
+    <None Include="wwwroot\assets\audio\PlayerAttack.wav" />
+    <None Include="wwwroot\assets\audio\PlayerDamage.wav" />
+    <None Include="wwwroot\assets\audio\PlayerDeath.wav" />
+    <None Include="wwwroot\assets\images\characters.png" />
+    <None Include="wwwroot\assets\images\items.png" />
+    <None Include="wwwroot\assets\images\monsters.png" />
+    <None Include="wwwroot\assets\images\test_spawner.png" />
+    <None Include="wwwroot\assets\images\ui\blue_button01.png" />
+    <None Include="wwwroot\assets\images\ui\blue_button02.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\audio\" />
+    <Folder Include="wwwroot\assets\images\" />
+    <Folder Include="wwwroot\assets\images\ui\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\ast-038784ec\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\floating-point-hex-parser-977d5dbd\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\helper-api-error-f389faaa\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\helper-buffer-5f52bc8c\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\helper-code-frame-3b462acc\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\helper-fsm-34a4d90b\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\helper-module-context-050aeb6d\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\helper-wasm-bytecode-90f5bdd9\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\helper-wasm-section-3aa9d931\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\ieee754-bc2d5d61\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\leb128-ce73c4f9\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\utf8-ed58aa3a\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\wasm-edit-c1a5edda\esm\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\wasm-gen-9ed7c346\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\wasm-opt-328089d8\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\wasm-parser-cb2747ac\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\wast-parser-b60ea03c\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\.staging\%40webassemblyjs\wast-printer-d760f492\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\anymatch\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\base\node_modules\define-property\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\base\node_modules\is-accessor-descriptor\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\base\node_modules\is-data-descriptor\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\base\node_modules\is-descriptor\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\braces\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\braces\node_modules\extend-shallow\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\cache-base\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\concat-stream\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\enhanced-resolve\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\expand-brackets\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\expand-brackets\node_modules\debug\src\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\expand-brackets\node_modules\define-property\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\expand-brackets\node_modules\extend-shallow\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\extglob\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\extglob\node_modules\define-property\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\extglob\node_modules\extend-shallow\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\extglob\node_modules\is-accessor-descriptor\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\extglob\node_modules\is-data-descriptor\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\extglob\node_modules\is-descriptor\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\flush-write-stream\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\from2\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\fs-write-stream-atomic\test\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\memory-fs\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\micromatch\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\nanomatch\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\parallel-transform\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\readable-stream\doc\wg-meetings\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\readable-stream\lib\internal\streams\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\readdirp\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv-keywords\keywords\dotjs\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv-keywords\keywords\dot\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv\dist\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv\lib\compile\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv\lib\dotjs\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv\lib\dot\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv\lib\refs\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\ajv\scripts\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\fast-deep-equal\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\node_modules\json-schema-traverse\spec\fixtures\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\schema-utils\src\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\snapdragon\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\snapdragon\node_modules\debug\src\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\snapdragon\node_modules\define-property\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\snapdragon\node_modules\extend-shallow\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\snapdragon\node_modules\source-map\dist\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\snapdragon\node_modules\source-map\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\source-map-resolve\lib\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\source-map-resolve\test\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\universalify\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\unset-value\node_modules\has-values\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\unset-value\node_modules\has-value\node_modules\isobject\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\upath\build\code\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\uri-js\dist\es5\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\uri-js\dist\esnext\schemes\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\uri-js\src\schemes\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\uri-js\tests\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\urix\test\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\url\node_modules\punycode\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\use\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\util-deprecate\" />
+    <Folder Include="wwwroot\lib\Phaser\node_modules\util\support\" />
+  </ItemGroup>
+
+</Project>
