@@ -11899,33 +11899,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lahmacunity\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\barisc\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lahmacunity\\source\\repos\\PhaserTest\\PhaserLearning\\PhaserTest\\PhaserTest.csproj",
+      "projectUniqueName": "C:\\Users\\barisc\\Documents\\PersonalProjects\\PhaserLearning\\PhaserTest\\PhaserTest.csproj",
       "projectName": "PhaserTest",
-      "projectPath": "C:\\Users\\Lahmacunity\\source\\repos\\PhaserTest\\PhaserLearning\\PhaserTest\\PhaserTest.csproj",
-      "packagesPath": "C:\\Users\\Lahmacunity\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lahmacunity\\source\\repos\\PhaserTest\\PhaserLearning\\PhaserTest\\obj\\",
+      "projectPath": "C:\\Users\\barisc\\Documents\\PersonalProjects\\PhaserLearning\\PhaserTest\\PhaserTest.csproj",
+      "packagesPath": "C:\\Users\\barisc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\barisc\\Documents\\PersonalProjects\\PhaserLearning\\PhaserTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lahmacunity\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\barisc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nugetlib": {},
+        "http://packagesource": {},
+        "http://testget/nuget/test": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11959,7 +11959,7 @@
             "autoReferenced": true
           },
           "Microsoft.TypeScript.MSBuild": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.6.0, )"
